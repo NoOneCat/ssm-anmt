@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class User implements Serializable {
-    private static final long serialVersionUID = 1959083966091514459L;
 
     private Long id;
 
@@ -110,5 +109,4 @@ public class User implements Serializable {
                 + ", age=" + age + ", sex=" + sex + ", birthday=" + birthday + ", created=" + created
                 + ", updated=" + updated + "]";
     }
-
 }
